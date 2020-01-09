@@ -1,0 +1,43 @@
+
+body{
+    background-color: salmon;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:white;
+    background-color:orange;
+}
+.navbar:hover{
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+}
+h1{
+    width: 100%;
+    text-align: center;
+
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+h1 + p{
+    width: 100%;
+
+}
+.news{
+    text-align: center;
+    width: 33%;
+}
+.news:nth-of-type(3){
+    font-size: 160%;
+    text-align: center;
+    order: -1;
+    margin-left: 35%;
+}
+.news:nth-of-type(1) {
+    margin-left: 15%;
+}
